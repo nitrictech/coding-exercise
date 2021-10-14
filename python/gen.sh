@@ -1,0 +1,1 @@
+rm -rf gen && mkdir -p gen && python3 -m grpc_tools.protoc -I ../proto --python_betterproto_out=./gen ../proto/*.proto
