@@ -1,0 +1,14 @@
+syntax = "proto3";
+package interview.storage;
+
+service Storage {
+	rpc Read(ReadRequest) returns (ReadResponse);
+}
+
+message ReadRequest {
+  string key = 1;
+}
+
+message ReadResponse {
+	string content = 1;
+}
