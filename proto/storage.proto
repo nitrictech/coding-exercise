@@ -1,6 +1,8 @@
 syntax = "proto3";
 package interview.storage;
 
+option go_package = "interview/storage";
+
 service Storage {
 	rpc Read(ReadRequest) returns (ReadResponse);
 }
