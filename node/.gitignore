@@ -1,0 +1,7 @@
+src/gen
+
+node_modules/
+
+# Ignore lock files for this project
+# Allow devs to use whatever tooling they like
+*.lock
